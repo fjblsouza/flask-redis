@@ -7,3 +7,9 @@ services:
   data-cache:
     type: redis
     attach_as: separate_variables
+  svc-1:
+    type: redis
+    attach_as: url
+  svc-2:
+    type: mongodb
+    attach_as: url
