@@ -1,0 +1,9 @@
+env_vars:
+  FLASK_APP: app.py
+  FLASK_RUN_HOST: 0.0.0.0
+  FLASK_RUN_PORT: "8080"
+
+services:
+  cache:
+    type: redis
+    attach_as: separate_variables
