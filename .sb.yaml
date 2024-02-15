@@ -10,6 +10,3 @@ services:
   svc-1:
     type: redis
     attach_as: url
-  svc-2:
-    type: mongodb
-    attach_as: url
