@@ -4,6 +4,6 @@ env_vars:
   FLASK_RUN_PORT: "8080"
 
 services:
-  cache:
+  data-cache:
     type: redis
     attach_as: separate_variables
